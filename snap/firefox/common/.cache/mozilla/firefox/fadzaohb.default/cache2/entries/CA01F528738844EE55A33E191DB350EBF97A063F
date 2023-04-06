@@ -1,0 +1,535 @@
+{
+  "featureFlagLibraryVersion": "0.1",
+  "flags": [
+    {
+      "defaultValue": false,
+      "id": "inBrainTemplateBeta",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "tbs",
+                "trutv"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "eleague"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 1,
+          "cohortPriority": 1,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "inBrainTemplateBeta",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "idresolve",
+      "cohorts": [],
+      "name": "idresolve",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "doppler-send-token-event",
+      "cohorts": [],
+      "name": "doppler-send-token-event",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "inbrain",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "eleague",
+                "tbs",
+                "tnt",
+                "trutv",
+                "adult swim"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "discovery"
+              ],
+              "requiredFieldName": "brand"
+            },
+            {
+              "cohortCriteriaId": 1,
+              "requiredFieldValues": [
+                "psmFFClient-discovery-discoveryplus.com"
+              ],
+              "requiredFieldName": "ClientID"
+            }
+          ],
+          "cohortId": 1,
+          "cohortPriority": 1,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 0
+        }
+      ],
+      "name": "inbrain",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "isInHHIDExperiment",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "safari"
+              ],
+              "requiredFieldName": "browser"
+            },
+            {
+              "cohortCriteriaId": 1,
+              "requiredFieldValues": [
+                "cnn",
+                "eleague"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "isInHHIDExperiment",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "sendAuthToken2",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "trutv",
+                "cnn"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        }
+      ],
+      "name": "sendAuthToken2",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "inbrain.econ",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "eleague"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "cnn"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 1,
+          "cohortPriority": 1,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "trutv"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 2,
+          "cohortPriority": 2,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "tbs"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 3,
+          "cohortPriority": 3,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "tnt"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 4,
+          "cohortPriority": 4,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        }
+      ],
+      "name": "inbrain.econ",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "sendHHID",
+      "cohorts": [],
+      "name": "sendHHID",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "inbrainV1",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "tnt",
+                "trutv",
+                "tbs",
+                "eleague"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 0
+        }
+      ],
+      "name": "inbrainV1",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "aatest",
+      "cohorts": [
+        {
+          "cohortCriteria": [],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        }
+      ],
+      "name": "aatest",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "inBrainRecommendationsBeta",
+      "cohorts": [],
+      "name": "inBrainRecommendationsBeta",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "auth-service",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "prism",
+                "cnn"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "auth-service",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "doppler-pubsub-event",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "Adult Swim"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "doppler-pubsub-event",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "doppler-identity-onstart",
+      "cohorts": [],
+      "name": "doppler-identity-onstart",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "doppler-heartbeat-event",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "tcm",
+                "eleague",
+                "tnt",
+                "trutv"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        },
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "discovery",
+                "hbo max"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 1,
+          "cohortPriority": 1,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 0
+        }
+      ],
+      "name": "doppler-heartbeat-event",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "outside-us-location-check",
+      "cohorts": [],
+      "name": "outside-us-location-check",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "inBrainSurvey",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "eleague"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "inBrainSurvey",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "isInAuthTokenExperiment",
+      "cohorts": [
+        {
+          "cohortCriteria": [
+            {
+              "cohortCriteriaId": 0,
+              "requiredFieldValues": [
+                "prism",
+                "cnn"
+              ],
+              "requiredFieldName": "brand"
+            }
+          ],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 100
+        }
+      ],
+      "name": "isInAuthTokenExperiment",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": true,
+      "id": "doppler-identity-oncomplete",
+      "cohorts": [],
+      "name": "doppler-identity-oncomplete",
+      "type": "boolean",
+      "workspaceId": 52
+    },
+    {
+      "defaultValue": false,
+      "id": "sendAuthToken",
+      "cohorts": [
+        {
+          "cohortCriteria": [],
+          "cohortId": 0,
+          "cohortPriority": 0,
+          "stickinessProperty": "ffUserId",
+          "rolloutValue": 50
+        }
+      ],
+      "name": "sendAuthToken",
+      "type": "boolean",
+      "workspaceId": 52
+    }
+  ]
+}1»þyõ…      d.Fqd.FqEp¤°       i    O^partitionKey=%28https%2Chbomax.com%29,a,:https://wmff.warnermediacdn.com/psm_2_prod_full.json?version=1 necko:classified 1 strongly-framed 1 security-info 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 request-method GET request-Origin https://www.hbomax.com response-head HTTP/2 200 OK
+x-amz-id-2: +l1jxoH8bEhE73o9ibKNiYJC+WYpIp3wQSsawMhLUnXdktVdjjxcsMrSyk48PF6+A7AKTzDB/9E=
+x-amz-request-id: 5AD0X2X0HTA59QK0
+last-modified: Tue, 21 Mar 2023 19:59:33 GMT
+etag: "a02d05641541a2c99708d7e1e51d0a7b"
+x-amz-server-side-encryption: AES256
+x-amz-version-id: KO255.HO57CWSCntwz_Sg6MPuf7Lllcm
+accept-ranges: bytes
+content-type: app/json; charset=utf-8
+server: AmazonS3
+content-length: 11762
+expires: Thu, 06 Apr 2023 04:11:30 GMT
+cache-control: max-age=0, no-cache
+pragma: no-cache
+date: Thu, 06 Apr 2023 04:11:30 GMT
+access-control-expose-headers: ETag
+access-control-max-age: 86400
+access-control-allow-headers: Content-Type,If-None-Match
+access-control-allow-methods: GET,OPTIONS
+access-control-allow-origin: https://www.hbomax.com
+vary: Origin
+X-Firefox-Spdy: h2
+ original-response-headers x-amz-id-2: +l1jxoH8bEhE73o9ibKNiYJC+WYpIp3wQSsawMhLUnXdktVdjjxcsMrSyk48PF6+A7AKTzDB/9E=
+x-amz-request-id: 5AD0X2X0HTA59QK0
+last-modified: Tue, 21 Mar 2023 19:59:33 GMT
+etag: "a02d05641541a2c99708d7e1e51d0a7b"
+x-amz-server-side-encryption: AES256
+x-amz-version-id: KO255.HO57CWSCntwz_Sg6MPuf7Lllcm
+accept-ranges: bytes
+content-type: app/json; charset=utf-8
+server: AmazonS3
+content-length: 11762
+expires: Thu, 06 Apr 2023 04:11:30 GMT
+cache-control: max-age=0, no-cache
+pragma: no-cache
+date: Thu, 06 Apr 2023 04:11:30 GMT
+access-control-expose-headers: ETag
+access-control-max-age: 86400
+access-control-allow-headers: Content-Type,If-None-Match
+access-control-allow-methods: GET,OPTIONS
+access-control-allow-origin: https://www.hbomax.com
+vary: Origin
+X-Firefox-Spdy: h2
+ ctid 1   -ò

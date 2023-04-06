@@ -1,0 +1,72 @@
+{
+  "Version": "22.04",
+  "OEM": {
+    "Vendor": "LENOVO",
+    "Product": "80YH",
+    "Family": "ideapad 320-15IKB"
+  },
+  "BIOS": {
+    "Vendor": "LENOVO",
+    "Version": "4WCN37WW"
+  },
+  "Arch": "amd64",
+  "HwCap": "x86-64-v3",
+  "GPU": [
+    {
+      "Vendor": "8086",
+      "Model": "1921"
+    }
+  ],
+  "RAM": 3.8,
+  "Disks": [
+    1000.2
+  ],
+  "Partitions": [
+    959.8,
+    0.5
+  ],
+  "Screens": [
+    {
+      "Size": "340mmx190mm",
+      "Resolution": "1360x768",
+      "Frequency": "59.80"
+    }
+  ],
+  "Autologin": false,
+  "LivePatch": false,
+  "Session": {
+    "DE": "ubuntu:GNOME",
+    "Name": "ubuntu",
+    "Type": "wayland"
+  },
+  "Language": "pt_BR",
+  "Timezone": "America/Sao_Paulo",
+  "Install": {
+    "Media": "Ubuntu 22.04.1 LTS \"Jammy Jellyfish\" - Release amd64 (20220809.1)\n",
+    "Type": "GTK",
+    "OEM": false,
+    "PartitionMethod": "use_device",
+    "DownloadUpdates": true,
+    "Language": "pt_BR",
+    "Minimal": true,
+    "RestrictedAddons": false,
+    "Stages": {
+      "0": "language",
+      "3": "language",
+      "45": "console_setup",
+      "82": "console_setup",
+      "92": "wireless",
+      "96": "console_setup",
+      "195": "language",
+      "203": "console_setup",
+      "230": "wireless",
+      "350": "prepare",
+      "375": "partman",
+      "426": "start_install",
+      "442": "timezone",
+      "465": "usersetup",
+      "606": "user_done",
+      "1984": "done"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+2023-04-05 16:34:02.313 [info] Started initializing default profile extensions in extensions installation folder. file:///home/raphael/.vscode/extensions
+2023-04-05 16:34:02.651 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/raphael/.vscode/extensions Unable to create file 'vscode-userdata:/home/raphael/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2023-04-05 16:34:02.652 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/raphael/.vscode/extensions
+2023-04-05 16:37:01.318 [info] Getting Manifest... cweijan.vscode-mysql-client2
+2023-04-05 16:37:01.345 [info] Installing extension: cweijan.vscode-mysql-client2
+2023-04-05 16:37:04.892 [info] Extension signature is verified: cweijan.vscode-mysql-client2
+2023-04-05 16:37:05.579 [info] Extracted extension to /home/raphael/.vscode/extensions/.ca8d3938-58f2-4bd0-aa2f-178ad40994ab: cweijan.vscode-mysql-client2
+2023-04-05 16:37:05.641 [info] Renamed to /home/raphael/.vscode/extensions/cweijan.vscode-mysql-client2-6.3.3
+2023-04-05 16:37:05.650 [info] Extracting extension completed. cweijan.vscode-mysql-client2
+2023-04-05 16:37:05.726 [info] Extension installed successfully: cweijan.vscode-mysql-client2

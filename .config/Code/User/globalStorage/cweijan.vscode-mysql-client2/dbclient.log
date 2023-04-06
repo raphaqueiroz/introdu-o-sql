@@ -1,0 +1,21 @@
+2023-04-05 16:40:47 Creating SQLite connection for 1680723647875/null
+2023-04-05 16:40:47 Closing conneciton 1680723647875/null
+2023-04-06 12:32:22 Creating SQLite connection for 1680723647875/undefined
+2023-04-06 12:34:19 Closing conneciton 1680723647875/undefined
+2023-04-06 12:34:49 Creating SQLite connection for 1680795289720/null
+2023-04-06 12:34:49 Closing conneciton 1680795289720/null
+2023-04-06 12:52:35 Creating SQLite connection for 1680795289720/undefined
+2023-04-06 12:55:04 Execute sql fail : CREATE TABLE books(
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    author TEXT NOT NULL,
+    page_count INTEGER,
+    price REAL NOT NULL
+       )
+2023-04-06 12:55:04 Error: Error:: in prepare, table books already exists (1)
+	at Socket.<anonymous> (/home/raphael/.vscode/extensions/cweijan.vscode-mysql-client2-6.3.3/out/extension.js:181644:29)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)

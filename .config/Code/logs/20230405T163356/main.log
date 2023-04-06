@@ -1,0 +1,30 @@
+2023-04-05 16:33:56.646 [info] [SharedProcess] using utility process
+2023-04-05 16:33:56.646 [info] update#setState idle
+2023-04-05 16:34:00.652 [info] [UtilityProcess type: shared-process, pid: <none>]: creating new...
+2023-04-05 16:34:00.663 [info] [UtilityProcess id: 1, type: fileWatcher, pid: <none>]: creating new...
+2023-04-05 16:34:00.675 [info] [UtilityProcess type: shared-process, pid: 6807]: successfully created
+2023-04-05 16:34:00.677 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6808]: successfully created
+2023-04-05 16:34:00.837 [info] [UtilityProcess id: 1, type: extensionHost, pid: <none>]: creating new...
+2023-04-05 16:34:00.853 [info] [UtilityProcess id: 1, type: extensionHost, pid: 6830]: successfully created
+2023-04-05 16:34:07.237 [info] [UtilityProcess id: 2, type: fileWatcher, pid: <none>]: creating new...
+2023-04-05 16:34:07.246 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 6983]: successfully created
+2023-04-05 16:34:07.400 [info] [UtilityProcess id: 2, type: extensionHost, pid: <none>]: creating new...
+2023-04-05 16:34:07.419 [info] [UtilityProcess id: 2, type: extensionHost, pid: 6994]: successfully created
+2023-04-05 16:34:08.434 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 6983]: attempting to kill the process...
+2023-04-05 16:34:08.436 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 6983]: successfully killed the process
+2023-04-05 16:34:08.454 [info] [UtilityProcess id: 2, type: fileWatcher, pid: 6983]: received exit event with code 15
+2023-04-05 16:34:08.455 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2023-04-05 16:34:08.456 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 6983]: crashed with code 15 and reason 'killed'
+2023-04-05 16:34:08.489 [info] [UtilityProcess id: 2, type: extensionHost, pid: 6994]: received exit event with code 0
+2023-04-05 16:34:08.489 [info] Extension host with pid 6994 exited with code: 0, signal: unknown.
+2023-04-05 16:34:26.411 [info] update#setState checking for updates
+2023-04-05 16:34:26.414 [info] update#setState idle
+2023-04-05 16:39:04.055 [info] [UtilityProcess id: 1, type: extensionHost, pid: 6830]: received exit event with code 0
+2023-04-05 16:39:04.055 [info] Extension host with pid 6830 exited with code: 0, signal: unknown.
+2023-04-05 16:39:04.078 [info] [UtilityProcess id: 3, type: extensionHost, pid: <none>]: creating new...
+2023-04-05 16:39:04.094 [info] [UtilityProcess id: 3, type: extensionHost, pid: 7504]: successfully created
+2023-04-05 16:41:49.061 [info] [UtilityProcess id: 3, type: extensionHost, pid: 7504]: received exit event with code 0
+2023-04-05 16:41:49.061 [info] Extension host with pid 7504 exited with code: 0, signal: unknown.
+2023-04-05 16:41:49.139 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6808]: attempting to kill the process...
+2023-04-05 16:41:49.140 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6808]: successfully killed the process
+2023-04-05 16:41:49.174 [info] [UtilityProcess id: 1, type: fileWatcher, pid: 6808]: received exit event with code 0

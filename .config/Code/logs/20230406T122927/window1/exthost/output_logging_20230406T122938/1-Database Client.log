@@ -1,0 +1,13 @@
+2023-04-06 12:32:22 Creating SQLite connection for 1680723647875/undefined
+2023-04-06 12:34:19 Closing conneciton 1680723647875/undefined
+2023-04-06 12:34:49 Creating SQLite connection for 1680795289720/null
+2023-04-06 12:34:49 Closing conneciton 1680795289720/null
+2023-04-06 12:52:35 Creating SQLite connection for 1680795289720/undefined
+2023-04-06 12:55:04 Execute sql fail : CREATE TABLE books(
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    author TEXT NOT NULL,
+    page_count INTEGER,
+    price REAL NOT NULL
+       )
+2023-04-06 12:55:04 Error:: in prepare, table books already exists (1)

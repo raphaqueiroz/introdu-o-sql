@@ -1,0 +1,22 @@
+2023-04-06 12:29:42.171 [info] Getting Manifest... cweijan.vscode-mysql-client2
+2023-04-06 12:29:42.245 [info] Installing extension: cweijan.vscode-mysql-client2
+2023-04-06 12:29:45.704 [info] Extension signature is verified: cweijan.vscode-mysql-client2
+2023-04-06 12:29:46.478 [info] Extracted extension to /home/raphael/.vscode/extensions/.75508e6f-7db6-4c4f-b2fe-778ce5164e76: cweijan.vscode-mysql-client2
+2023-04-06 12:29:46.560 [info] Renamed to /home/raphael/.vscode/extensions/cweijan.vscode-mysql-client2-6.3.5
+2023-04-06 12:29:46.568 [info] Extracting extension completed. cweijan.vscode-mysql-client2
+2023-04-06 12:29:46.657 [info] Extension installed successfully: cweijan.vscode-mysql-client2
+2023-04-06 12:29:46.677 [info] Marked extension as uninstalled cweijan.vscode-mysql-client2-6.3.3
+2023-04-06 12:37:34.286 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2023-04-06 12:37:34.315 [info] Installing extension: vscode-icons-team.vscode-icons
+2023-04-06 12:37:37.213 [info] Extension signature is verified: vscode-icons-team.vscode-icons
+2023-04-06 12:37:39.032 [info] Extracted extension to /home/raphael/.vscode/extensions/.6963c93f-f45d-4eba-bbcc-189e46e20132: vscode-icons-team.vscode-icons
+2023-04-06 12:37:39.112 [info] Renamed to /home/raphael/.vscode/extensions/vscode-icons-team.vscode-icons-12.2.0
+2023-04-06 12:37:39.118 [info] Extracting extension completed. vscode-icons-team.vscode-icons
+2023-04-06 12:37:39.194 [info] Extension installed successfully: vscode-icons-team.vscode-icons
+2023-04-06 12:51:25.727 [info] Getting Manifest... robbowen.synthwave-vscode
+2023-04-06 12:51:25.750 [info] Installing extension: robbowen.synthwave-vscode
+2023-04-06 12:51:28.199 [info] Extension signature is verified: robbowen.synthwave-vscode
+2023-04-06 12:51:28.296 [info] Extracted extension to /home/raphael/.vscode/extensions/.104cd8e1-07ed-47f9-a386-86e74aed4cc1: robbowen.synthwave-vscode
+2023-04-06 12:51:28.408 [info] Renamed to /home/raphael/.vscode/extensions/robbowen.synthwave-vscode-0.1.15
+2023-04-06 12:51:28.412 [info] Extracting extension completed. robbowen.synthwave-vscode
+2023-04-06 12:51:28.477 [info] Extension installed successfully: robbowen.synthwave-vscode
